@@ -1,0 +1,182 @@
+.header{
+    width: 100%;
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size:100% 100% ;
+}
+.header .nav{
+    background-color: darkmagenta;
+    opacity: 0.5;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.header .nav img{
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+    border-radius: 50%;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+.header .nav ul {
+    color: aliceblue;
+    margin-left: 160px;
+}
+.header .nav ul li {
+      display: inline-block;
+    position: relative;
+    top :20px;
+    margin-left: 50px;
+}
+.header .pro{
+color: aliceblue;
+text-align: center;
+}
+
+.header .pro .p2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(92, 92, 201);
+    margin-top:-35px ;
+}
+.header .pro :nth-child(1){
+    font-size: 40px;
+    color: aliceblue;
+}
+.header .pro a{
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 3px solid white;
+    background-color: red;
+    color: aliceblue;
+    text-decoration: none;
+}
+.header .pro a:hover{ 
+    background-color: black;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 5px;
+}
+section .ch1{
+    background-color: blueviolet;
+    grid-area: 1 / 1 / span 2 / span 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+section .ch2{
+    background-color: blueviolet;
+    grid-area: 1 / 3 / span 1 / span 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+ section .ch3{
+    background-color: blueviolet;
+    grid-area: 1 / 6 / span 1 / span 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+section .ch4{
+    background-color: blueviolet;
+    grid-area: 1 / 8 / span 1 / span 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+section .ch5{
+    background-color: blueviolet;
+    grid-area: 2 / 3 / span 1 / span 5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+section .ch6{
+    background-color: blueviolet;
+    grid-area: 2 / 8 / span 1 / span 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+} 
+section .ch1 .ch1-img{
+    width: 250px;
+    height: 250px;
+    background-image:url(7.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    
+}
+section .ch2 .ch1-img{
+    width: 250px;
+    height: 250px;
+    background-image:url(10.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    
+}
+section .ch3 .ch1-img{
+    width: 250px;
+    height: 250px;
+    background-image:url(11.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    
+}
+section .ch4 .ch1-img{
+    width: 250px;
+    height: 250px;
+    background-image:url(1.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    
+}
+section .ch5 .ch1-img{
+    width: 250px;
+    height: 250px;
+    background-image:url(2.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    
+}
+section .ch6 .ch1-img{
+    width: 250px;
+    height: 250px;
+    background-image:url(3.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
